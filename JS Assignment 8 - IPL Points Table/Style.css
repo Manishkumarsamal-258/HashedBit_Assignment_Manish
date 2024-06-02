@@ -1,0 +1,16 @@
+thead th {
+    background-color: #039b1f;
+    color: #ffffff;
+  }
+  
+  td:nth-child(1) {
+    background-color: #f2f2f2;
+  }
+  
+  td:nth-child(8) {
+    background-color: #d1d1d1;
+  }
+  
+  td {
+    border: solid 1px #dddddd;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="app" class="day">
+        <p>I am a HashedBit student, ready to become an awesome full stack developer</p>
+        <button onclick="swapTheme()" id="swap" class="button_day">Toggle theme</button>
+    </div>
+    <script >
+
+function swapTheme() {
+
+    var li = document.getElementById('app');
+    console.log(li.className);
+    if(li.className==="day"){
+    document.getElementById('app').classList.remove('day');
+      document.getElementById('swap').classList.remove('button_day');
+      
+      document.getElementById('app').classList.add('night');
+      document.getElementById('swap').classList.add('button_night');
+    }
+    else{
+    document.getElementById('app').classList.remove('night');
+      document.getElementById('swap').classList.remove('button_night');
+      
+      document.getElementById('app').classList.add('day');
+      document.getElementById('swap').classList.add('button_day');
+    }
+    
+    }
+    </script>
+</body>
+</html>
