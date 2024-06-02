@@ -1,7 +1,7 @@
 # HashedBit-Assignments
 
 1) HTML and CSS
-2) JS Assignment 1 - Solve
+2) JS Assignment 1 
 3) JS Assignment 2
 4) JS Assignment 3
 5) 	JS Assignment 4 - DOM
